@@ -1,0 +1,57 @@
+body {
+	background: #006666 url(Grunge.jpg) no-repeat;
+	-moz-background-size: 100%; 
+    -webkit-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+
+#mainBlock {
+	background-color: #ffffff;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.all {
+	min-height: 100%;
+	margin-bottom: -30px;
+}
+
+*html .all {
+	height: 100%
+}
+
+#empty {
+	height: 30px;
+}
+
+h1 {
+	font-family: candara;
+	color: #ffffff;
+	font:normal;
+	font-weight: bold;
+	padding-left: 50px;
+}
+
+fieldset{
+	margin: 5%;
+}
+
+#matrix {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+#footer {
+	height: 30px;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+
+

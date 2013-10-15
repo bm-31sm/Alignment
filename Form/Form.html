@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Выравнивания</title>
+		<link rel="stylesheet"  href="formstyle.css" media="all">
+	</head>
+
+	<body>
+
+		<div id="title">
+			<h1>ВЫРАВНИВАНИЕ</h1>
+		</div>
+
+		<div id="mainBlock" class="all">
+			
+			<div id="info">
+				<p>Что это такое...</p>
+			</div>
+				
+			<div id="input">
+				<fieldset>
+					<legend>Введение последовательностей</legend>
+					<p>Послед1</p>
+					<input id="firstSequence" type="text"><br>
+					<p>Послед2</p>
+					<input id="secondSequence" type="text"><br>
+					<p>Тип выравнивания</p>
+					<select>
+  						<option selected disabled name="">Алгоритм выравнивания</option>
+  						<option value="global">Глобальное</option>
+  						<option value="local">Локальное</option>
+  						<option value="pseudo">Псевдоглобальное</option>
+					</select>
+					<button id="showResults" onclick="alignSequences()">OK</button>
+				</fieldset>
+			</div>
+
+			<div id="result">
+				<fieldset>
+					<legend>Результаты</legend>
+					<p id="demo1"></p>
+					<p id="demo2"></p> <br>
+					<button id="click">Детали</button>
+				</fieldset>		
+			</div>
+
+			<div id="matrix">
+				<fieldset>
+					<legend>Матрицы</legend>
+					<table id="weightTemporaryResults"></table> <br>
+					<table id="wayTemporaryResults"></table>
+				</fieldset>		
+			</div>
+		</div>
+
+		<div id="empty"></div>
+
+		<div id="footer">
+			<footer>Copyright</footer>
+		</div>
+	
+	</body>
+</html>
+
+
+				
